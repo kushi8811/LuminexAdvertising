@@ -183,3 +183,44 @@ div.jumbotron{
         a:hover{
         	text-decoration: none;
         }
+ @media (max-width: 1199px){
+ 	div.jumbotron{
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+}
+@media (max-width:777px){
+	.navbar {
+    background-color: lightgrey;
+    border-style: none;
+    overflow: hidden;
+    transition: 0.4s;
+    position: fixed;
+    padding-bottom:50px ;
+   }
+   video {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	border:0;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+.form-control{
+	margin-left: -100px;
+	max-width: 95%;
+}
+.container h1{
+	padding-top: 15px;
+}
+.second h2{
+	padding-top: 4px;
+    padding-left: 95px
+}
+.third p{
+	padding-top: 15px;
+}
+.pricing-table{
+	max-width: 65%;
+}
+}   
